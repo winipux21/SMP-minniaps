@@ -28,8 +28,7 @@ The team was responsible for developing user scenarios and visual design in Figm
 * I worked closely with the designers: I quickly adapted their layouts from Figma, offered UX edits
 * The team prepared a presentation and presented a ready—made solution at the hackathon - the project won a prize
 
-
-Together with my teammates’ Figma designs, this full‑stack implementation delivers a polished, end‑to‑end solution for quickly finding and sharing information about missing persons
+Thus, I acted as a full‑stack developer, providing a stable and extensible foundation for the service, ready for scaling and further development
 
 ## Below are the key screens of our application, demonstrating the main user scenarios
 
