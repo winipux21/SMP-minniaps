@@ -35,23 +35,23 @@ Thus, I acted as a full‑stack developer, providing a stable and extensible fou
 - VK Mini Apps card with a brief description of the service
 - Main screen: interactive map with two filter tabs ‑ "People" and "Pets", as well as lower navigation between the Home / Chats sections / Profile. The user immediately understands how to switch between search categories and the main sections of the application.
 <img width="181" height="401" alt="Рисунок1" src="https://github.com/user-attachments/assets/412380c7-8ce5-4c01-a957-52c3e3cdb341" /> <img width="255" height="544" alt="Рисунок2" src="https://github.com/user-attachments/assets/2e0ebfaf-db30-45e5-a621-6ebcdfd60da9" /> <img width="255" height="544" alt="Рисунок3" src="https://github.com/user-attachments/assets/26f1f541-5a6f-4c68-9979-d98b9c096a14" />
+
 2. Operational coordination of volunteers
 The following two screenshots illustrate how the built-in chat works, which allows teams to quickly synchronize without third-party messengers
+
 <img width="264" height="532" alt="Рисунок4" src="https://github.com/user-attachments/assets/087a94fb-4d7c-4b2a-8a3f-b4a7779d3961" /> <img width="281" height="532" alt="Рисунок5" src="https://github.com/user-attachments/assets/c195fa8c-e0ee-4ed8-b290-6450a5345492" />
-3. Filing of missing persons reports
+
+4. Filing of missing persons reports
 Next is a demonstration of the form to fill out to search for a person / pet. All fields are masked/validated, which reduces the chance of typing errors
+
 <img width="257" height="544" alt="Рисунок6" src="https://github.com/user-attachments/assets/e9507511-2b0f-40f0-be00-1a6998e77548" /> <img width="256" height="543" alt="Рисунок7" src="https://github.com/user-attachments/assets/ce1ee36f-0af2-49ef-a803-c663680f3254" /> <img width="255" height="542" alt="Рисунок8" src="https://github.com/user-attachments/assets/21157e41-a009-4c4a-9a98-87525e3c628b" />
-4. Personal account and tracking of applications
-You can monitor the status of applications in your profile 
+
+6. Personal account and tracking of applications
+You can monitor the status of applications in your profile
+
 <img width="256" height="544" alt="Рисунок9" src="https://github.com/user-attachments/assets/de5bdfc0-7ab5-4f21-a3ed-bd14011ddedb" /> <img width="256" height="544" alt="Рисунок10" src="https://github.com/user-attachments/assets/ba78d90a-b633-40c7-b53e-7e11c1190a04" />
 
-The "How to help" section is an instruction for volunteers: departure by coordinates, search by data from the site, the process of transferring the found person
-![next](https://github.com/user-attachments/assets/eae14259-30d6-417f-9d3a-4d0ed40485ff)
-
-The application form contains a detailed report on the disappearance: the applicant's contact, the missing person's parameters (photo, clothing, time and place of disappearance) and the ability to instantly transfer data to the database
-![nextnext](https://github.com/user-attachments/assets/d34f8ade-b804-46a8-b53d-251e24290ed1)
-
-# SMP Frontend Setup Guide
+# SMP vk-mini-app Setup Guide
 
 Welcome! This guide will help you set up and run the **SMP Frontend** project locally  
 Technologies used: **Node.js**, **Vite.js** and **React 17**
@@ -61,19 +61,45 @@ Technologies used: **Node.js**, **Vite.js** and **React 17**
 
 ---
 
-## 1. Clone the Repository
-
-Create a folder for the project, for example "SMP"
-
-Next, use this command to ```git clone https://github.com/winipux21/SMP-backend``` the repository into the created folder
-
-## 2. Install Dependencies
-
-Use the ```npm install``` command to install all required dependencies
-
-Use the ```npm run build``` command to build a project 
-
-## 3. Run the Server
+## Backend Setup
+* Clone & install
+```
+git clone https://github.com/your-org/smp-vk-mini-app.git
+cd smp-vk-mini-app/backend
+npm install
+```
+* Configure environment
+Create ```.env``` from the template:
+```
+MONGO_URI=mongodb://localhost:27017/vkminiapp
+PORT=5000
+YANDEX_API_KEY=
+MODERATOR_IDS=
+```
+* Run the Server
 Start the backend server with: to run it, use the command ```node server.js```
 
-And of course, don't forget to download the frontend part - [SMP-Backend](https://github.com/winipux21/SMP-backend/tree/master)
+## Frontend Setup
+* Install dependencies
+```
+cd smp-vk-mini-app/frontend
+npm install
+```
+* Configure environment
+Create ```.env``` from the template:
+```
+VITE_API_URL=http://localhost:5000
+VITE_YANDEX_API_KEY=
+```
+* Run the Server
+Start the backend server with: to run it, use the command ```npm start            # vite dev server on http://localhost:5173```
+
+Optional: expose with vk‑tunnel to test on a real device inside VK:
+```
+npm run tunnel       # generates a public HTTPS link
+```
+* Build & deploy
+```
+npm run build        # outputs static files to /frontend/build
+npm run deploy       # vite build + vk-miniapps-deploy (requires VK API token)
+```
