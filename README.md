@@ -49,7 +49,7 @@ Next is a demonstration of the form to fill out to search for a person / pet. Al
 6. Personal account and tracking of applications
 You can monitor the status of applications in your profile
 
-<img width="256" height="544" alt="Рисунок9" src="https://github.com/user-attachments/assets/de5bdfc0-7ab5-4f21-a3ed-bd14011ddedb" /> <img width="256" height="544" alt="Рисунок10" src="https://github.com/user-attachments/assets/ba78d90a-b633-40c7-b53e-7e11c1190a04" />
+<img width="256" height="544" alt="Рисунок9" src="https://github.com/user-attachments/assets/de5bdfc0-7ab5-4f21-a3ed-bd14011ddedb" />             <img width="256" height="544" alt="Рисунок10" src="https://github.com/user-attachments/assets/ba78d90a-b633-40c7-b53e-7e11c1190a04" />
 
 # SMP vk-mini-app Setup Guide
 
