@@ -1,0 +1,42 @@
+{
+  "name": "frontend2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "tunnel": "vk-tunnel --http-protocol=http --host=localhost --port=5173",
+    "deploy": "vite build && vk-miniapps-deploy"
+  },
+  "dependencies": {
+    "@vkontakte/icons": "^2.92.0",
+    "@vkontakte/vk-bridge": "^2.13.0",
+    "@vkontakte/vk-bridge-react": "^1.0.1",
+    "@vkontakte/vk-mini-apps-router": "^1.4.2",
+    "@vkontakte/vkui": "^6.0.0",
+    "axios": "^1.7.7",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.28.0",
+    "react-yandex-maps": "^4.6.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^5.3.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vkontakte/vk-miniapps-deploy": "^0.1.6",
+    "@vkontakte/vk-tunnel": "^0.2.0",
+    "eruda": "^3.0.1",
+    "esbuild": "~0.20.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "terser": "^5.4.0",
+    "vite": "^5.0.8"
+  }
+}

@@ -1,0 +1,61 @@
+.pet-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pet-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.pet-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.pet-form input,
+.pet-form select,
+.pet-form textarea {
+  width: calc(100% - 40px);  /* Adjust width for equal left and right margins */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px;          /* Add equal margin on the left */
+  margin-right: 20px;         /* Add equal margin on the right */
+  box-sizing: border-box;     /* Ensure padding and margin don't break layout */
+}
+
+.pet-form .form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet-form .form-buttons .exit {
+  background-color: #d9534f;  /* Red color for the left (exit) button */
+  color: white;
+}
+
+.pet-form .form-buttons .submit {
+  background-color: #0275d8;  /* Blue color for the right (submit) button */
+  color: white;
+}
+
+.pet-form .form-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%;                /* Button width adjusted for spacing */
+}
+
+.pet-form .form-buttons button:hover {
+  opacity: 0.9;
+}

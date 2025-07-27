@@ -1,0 +1,37 @@
+.chat-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-item {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chat-item:hover {
+  background-color: #e6f7ff;
+}
+
+.chat-item-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.chat-item-body {
+  font-size: 14px;
+  color: #555;
+}
+
+.chat-list-loading,
+.chat-list-error {
+  text-align: center;
+  margin: 20px;
+  color: #555;
+}

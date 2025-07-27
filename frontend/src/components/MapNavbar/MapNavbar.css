@@ -1,0 +1,50 @@
+/* Навбар */
+.map-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%; /* Не выходим за пределы страницы */
+  background: linear-gradient(180deg, #3b8dbd, #ffffff);
+  border-radius: 0 0 15px 15px; /* Скругление нижних углов */
+  overflow: hidden;
+  z-index: 1000;
+  height: 38px; /* Совпадает с высотой заголовка */
+  box-sizing: border-box; /* Включаем padding и border в расчёт высоты */
+}
+
+/* Заголовок навбара */
+.map-navbar .map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  background: #3b8dbd;
+  color: white;
+  font-size: 16px;
+  user-select: none;
+  cursor: grab;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 38px; /* Высота заголовка совпадает с высотой навбара */
+  transition: transform 0.3s ease-in-out; /* Плавное перемещение заголовка */
+}
+
+/* Иконка для сворачивания/разворачивания */
+.map-navbar .toggle-icon {
+  font-size: 16px;
+}
+
+/* Карта */
+.map-navbar .map-content {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Не выходим за пределы страницы */
+  overflow: hidden;
+  background: #e6e6e6;
+  height: 0; /* Изначально скрыта */
+  transition: height 0.3s ease-in-out; /* Плавное раскрытие карты */
+}

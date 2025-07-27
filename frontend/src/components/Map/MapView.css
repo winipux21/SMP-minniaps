@@ -1,0 +1,11 @@
+.map-container {
+    margin-top: 20px;
+    width: 100px;
+    height: 200px;
+  }
+  
+  .map-error {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+  }

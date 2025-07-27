@@ -1,0 +1,21 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e0f7fa; /* Цвет фона */
+  border-radius: 40px 40px 0 0; /* Скругленные углы сверху */
+  padding: 10px;
+  height: 60px;
+  position: relative;
+}
+
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-icon:hover {
+  transform: scale(1.2); /* Анимация увеличения при наведении */
+}

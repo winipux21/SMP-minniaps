@@ -1,0 +1,47 @@
+/* Синий фон для людей */
+.bg-human {
+    background-color: #b3d9ff; /* Нежно-синий */
+    color: #000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Зелёный фон для питомцев */
+  .bg-pet {
+    background-color: #d4f7d4; /* Нежно-зелёный */
+    color: #000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .style-switch {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .style-switch:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Занимаем всю высоту экрана */
+  }
+  
+  .home-main {
+    flex: 1; /* Занимаем оставшееся пространство */
+  }
+  
+  .navbar-container {
+    margin-top: auto; /* Гарантирует, что Navbar находится внизу */
+  }
+  
