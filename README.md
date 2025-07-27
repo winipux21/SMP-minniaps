@@ -31,9 +31,19 @@ The team was responsible for developing user scenarios and visual design in Figm
 Thus, I acted as a full‑stack developer, providing a stable and extensible foundation for the service, ready for scaling and further development
 
 ## Below are the key screens of our application, demonstrating the main user scenarios
-
-At the beginning of the page is the choice of the role (assistant / seeker), an interactive map with the points of the last location of the missing
-![main](https://github.com/user-attachments/assets/92d79572-4b65-47bc-9fe6-91e97cdddc55)
+1. First introduction and basic navigation
+- VK Mini Apps card with a brief description of the service
+- Main screen: interactive map with two filter tabs ‑ "People" and "Pets", as well as lower navigation between the Home / Chats sections / Profile. The user immediately understands how to switch between search categories and the main sections of the application.
+<img width="181" height="401" alt="Рисунок1" src="https://github.com/user-attachments/assets/412380c7-8ce5-4c01-a957-52c3e3cdb341" /> <img width="255" height="544" alt="Рисунок2" src="https://github.com/user-attachments/assets/2e0ebfaf-db30-45e5-a621-6ebcdfd60da9" /> <img width="255" height="544" alt="Рисунок3" src="https://github.com/user-attachments/assets/26f1f541-5a6f-4c68-9979-d98b9c096a14" />
+2. Operational coordination of volunteers
+The following two screenshots illustrate how the built-in chat works, which allows teams to quickly synchronize without third-party messengers
+<img width="264" height="532" alt="Рисунок4" src="https://github.com/user-attachments/assets/087a94fb-4d7c-4b2a-8a3f-b4a7779d3961" /> <img width="281" height="532" alt="Рисунок5" src="https://github.com/user-attachments/assets/c195fa8c-e0ee-4ed8-b290-6450a5345492" />
+3. Filing of missing persons reports
+Next is a demonstration of the form to fill out to search for a person / pet. All fields are masked/validated, which reduces the chance of typing errors
+<img width="257" height="544" alt="Рисунок6" src="https://github.com/user-attachments/assets/e9507511-2b0f-40f0-be00-1a6998e77548" /> <img width="256" height="543" alt="Рисунок7" src="https://github.com/user-attachments/assets/ce1ee36f-0af2-49ef-a803-c663680f3254" /> <img width="255" height="542" alt="Рисунок8" src="https://github.com/user-attachments/assets/21157e41-a009-4c4a-9a98-87525e3c628b" />
+4. Personal account and tracking of applications
+You can monitor the status of applications in your profile 
+<img width="256" height="544" alt="Рисунок9" src="https://github.com/user-attachments/assets/de5bdfc0-7ab5-4f21-a3ed-bd14011ddedb" /> <img width="256" height="544" alt="Рисунок10" src="https://github.com/user-attachments/assets/ba78d90a-b633-40c7-b53e-7e11c1190a04" />
 
 The "How to help" section is an instruction for volunteers: departure by coordinates, search by data from the site, the process of transferring the found person
 ![next](https://github.com/user-attachments/assets/eae14259-30d6-417f-9d3a-4d0ed40485ff)
