@@ -57,7 +57,8 @@ Welcome! This guide will help you set up and run the **SMP Frontend** project lo
 Technologies used: **Node.js**, **Vite.js** and **React 17**
 
 ![Static Badge](https://img.shields.io/badge/Node.js-20.18.3-green?link=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload) ![Static Badge](https://img.shields.io/badge/Vite.js-5.4.10-purple)
- ![Static Badge](https://img.shields.io/badge/React.js-17-blue)
+ ![Static Badge](https://img.shields.io/badge/React.js-17-blue) ![Static Badge](https://img.shields.io/badge/vk_router-1.4.2-blue?link=https%3A%2F%2Fdev.vk.com) ![Static Badge](https://img.shields.io/badge/ws-8.18.0-1A1A1A?link=https%3A%2F%2Fdev.vk.com)
+
 
 ---
 
