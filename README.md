@@ -68,8 +68,8 @@ Technologies used: **Node.js**, **Vite.js** and **React 17**
 ## Backend Setup
 * Clone & install
 ```
-git clone https://github.com/your-org/smp-vk-mini-app.git
-cd smp-vk-mini-app/backend
+git clone https://github.com/winipux21/SMP-minniaps
+cd SMP-minniaps/backend
 npm install
 ```
 * Configure environment
