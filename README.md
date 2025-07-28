@@ -6,6 +6,9 @@ Building on our initial hackathon prototype, we transformed the “Missing Perso
 By leveraging the VK ecosystem and Yandex Maps integration, volunteers can view last‑known coordinates, submit and search reports directly in the app, and communicate instantly via a WebSocket‑powered chat
 
 Our goal is to streamline the entire search process—reporting, mapping and real‑time coordination—so communities can respond faster and more effectively when a loved one or a pet goes missing
+
+[english](https://github.com/winipux21/SMP-minniaps/blob/main/README.md) [русский](https://github.com/winipux21/SMP-minniaps/blob/main/README/ru.md)
+
 ## My role and contributions
 The team was responsible for developing user scenarios and visual design in Figma, while I fully implemented both parts of the application — from the server logic to the interface
 ### Architecture and modularity
