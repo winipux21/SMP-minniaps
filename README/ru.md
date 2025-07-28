@@ -69,8 +69,8 @@
 ## Настройка бекенда
 * Клонирование репозитория и установка зависимостей
 ```
-git clone https://github.com/your-org/smp-vk-mini-app.git
-cd smp-vk-mini-app/backend
+git clone https://github.com/winipux21/SMP-minniaps
+cd SMP-minniaps/backend
 npm install
 ```
 * Настройка среды
