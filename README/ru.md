@@ -7,7 +7,7 @@
 
 Наша цель — упростить весь процесс поиска ‑ отчетность, картографирование и координацию в режиме реального времени, — чтобы сообщества могли быстрее и эффективнее реагировать на пропажу любимого человека или домашнего животного
 
-[english](https://github.com/winipux21/SMP-minniaps/blob/main/README.md) [русский](https://github.com/winipux21/SMP-minniaps/blob/main/README/ru.md)
+[english](https://github.com/idonix21/SMP-minniaps/blob/main/README.md) [русский](https://github.com/idonix21/SMP-minniaps/blob/main/README/ru.md)
 
 ## Моя роль и вклад в проект
 Команда отвечала за разработку пользовательских сценариев и визуального оформления в Figma, в то время как я полностью реализовал обе части приложения — от серверной логики до интерфейса
@@ -69,7 +69,7 @@
 ## Настройка бекенда
 * Клонирование репозитория и установка зависимостей
 ```
-git clone https://github.com/winipux21/SMP-minniaps
+git clone https://github.com/idonix21/SMP-minniaps
 cd SMP-minniaps/backend
 npm install
 ```
