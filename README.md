@@ -7,7 +7,7 @@ By leveraging the VK ecosystem and Yandex Maps integration, volunteers can view 
 
 Our goal is to streamline the entire search process—reporting, mapping and real‑time coordination—so communities can respond faster and more effectively when a loved one or a pet goes missing
 
-[english](https://github.com/winipux21/SMP-minniaps/blob/main/README.md) [русский](https://github.com/winipux21/SMP-minniaps/blob/main/README/ru.md)
+[english](https://github.com/idonix21/SMP-minniaps/blob/main/README.md) [русский](https://github.com/idonix21/SMP-minniaps/blob/main/README/ru.md)
 
 ## My role and contributions
 The team was responsible for developing user scenarios and visual design in Figma, while I fully implemented both parts of the application — from the server logic to the interface
@@ -68,7 +68,7 @@ Technologies used: **Node.js**, **Vite.js** and **React 17**
 ## Backend Setup
 * Clone & install
 ```
-git clone https://github.com/winipux21/SMP-minniaps
+git clone https://github.com/idonix21/SMP-minniaps
 cd SMP-minniaps/backend
 npm install
 ```
